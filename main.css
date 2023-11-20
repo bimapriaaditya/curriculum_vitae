@@ -4,7 +4,35 @@
 /* Import header style */
 @import url(./styles/header.css);
 
+/* Import Hero parralax style */
+@import url(./styles/hero.css);
+
+.title-sm {
+  color: rgb(255, 255, 255, .50);
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  padding-left: 2.5rem;
+  font-weight: 300;
+  letter-spacing: .25rem;
+}
+.title-sm::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  translate: 0 -50%;
+  width: 1.75rem;
+  height: 1px;
+  background-color: rgb(255, 255, 255, .25);
+}
+
+main > section:nth-child(2n) {
+  background: rgb(0, 0, 0, .5);
+}
+
 html {
   background-color: var(--dark);
   color: var(--light);
+  min-height: 100vh;
 }

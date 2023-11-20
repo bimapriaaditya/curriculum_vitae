@@ -53,6 +53,10 @@ menu {
   padding: 0;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+}
+
 a {
   color: inherit;
   text-decoration: inherit;
@@ -121,4 +125,53 @@ button,
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.mb-2 {
+  margin-bottom: .5rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text-justify {
+  text-align: justify;
+}
+
+.text-yellow {
+  color: var(--yellow);
+}
+
+.flex {
+  display: flex;
+}
+.gap-2 {
+  gap: .5rem;
+}
+.items-center {
+  align-items: center;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }

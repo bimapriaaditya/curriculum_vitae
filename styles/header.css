@@ -1,3 +1,11 @@
+header.main-header{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  translate: -50% 0;
+  width: 100%;
+
+}
 header.main-header > .content{
   display: flex;
   flex-direction: row;
@@ -19,6 +27,7 @@ header.main-header > .content .menu-list{
 header.main-header > .content .menu-list > li{
   border-bottom: 3px solid;
   border-bottom-color: transparent;
+  white-space: nowrap;
 }
 header.main-header > .content .menu-list > li:hover{
   color: var(--yellow);

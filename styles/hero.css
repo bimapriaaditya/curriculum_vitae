@@ -1,0 +1,58 @@
+.hero .content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 7rem 0;
+}
+.hero .content > .left-side{
+  position: relative;
+  width: 60%;
+  min-width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero .content > .left-side > .thumbnail{
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: contain;
+  height: 85vh;
+  z-index: -1;
+}
+.hero .content > .left-side > .heading{
+  line-height: 1;
+  padding: 3rem 0;
+  z-index: 1;
+  position: relative;
+  margin-bottom: 4rem;
+}
+.hero .content > .left-side > .heading::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  width: 15%;
+  background-color: var(--yellow);
+}
+.hero .content > .left-side > .heading > h1{
+  font-size: 4rem;
+}
+.hero .content > .left-side > .heading > h2{
+  font-size: 6rem;
+  letter-spacing: .25rem;
+  z-index: 1;
+}
+.hero .content > .left-side > .social{
+  display: flex;
+  gap: 1.5rem;
+  padding: 3rem 0;
+}
+.hero .content > .right-side{
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  padding: 3rem 0;
+}
