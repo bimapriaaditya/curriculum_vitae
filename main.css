@@ -1,0 +1,10 @@
+/* Import Base Style */
+@import url(./styles/base.css);
+
+/* Import header style */
+@import url(./styles/header.css);
+
+html {
+  background-color: var(--dark);
+  color: var(--light);
+}

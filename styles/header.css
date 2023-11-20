@@ -1,0 +1,40 @@
+header.main-header > .content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 2rem;
+}
+header.main-header > .content .header-logo{
+  width: 4rem;
+  object-fit: contain;
+}
+header.main-header > .content .menu-list{
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+}
+header.main-header > .content .menu-list > li{
+  border-bottom: 3px solid;
+  border-bottom-color: transparent;
+}
+header.main-header > .content .menu-list > li:hover{
+  color: var(--yellow);
+}
+header.main-header > .content .menu-list > li.active{
+  border-bottom-color: var(--yellow);
+}
+header.main-header > .content .menu-list > li > a{
+  display: inline-block;
+  padding: .5rem 1rem;
+}
+
+
+header.main-header > .content .menu-list > li,
+header.main-header > .content .menu-list > li > a {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
