@@ -20,6 +20,8 @@
   object-fit: contain;
   height: 85vh;
   z-index: -1;
+  opacity: .75;
+  filter: drop-shadow(0.25rem 0.5rem 1rem rgb(255,255,255, 0.1)) saturate(.75);
 }
 .hero .content > .left-side > .heading{
   line-height: 1;

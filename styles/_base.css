@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "metropolis";
+  src: url(../assets/fonts/metropolis/metropolis.medium.otf);
+}
+@font-face {
+  font-family: "gabarito";
+  src: url(../assets/fonts/gabarito/Gabarito-VariableFont_wght.ttf);
+}
+
+:root{
+  --dark: #323544;
+  --light: #e5e8ed;
+  --yellow: #ffbb5c;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "metropolis", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.metropolis {
+  font-family: "metropolis";
+}
+.gabarito {
+  font-family: "gabarito";
+}
+
+.text-yellow {
+  color: var(--yellow);
+}
