@@ -1,0 +1,33 @@
+.experience-timeline {
+  position: relative;
+}
+.experience-timeline > li{
+  position: relative;
+  padding: .25rem 1rem 1.75rem;
+}
+.experience-timeline.right-order > li{
+  border-right: 2px solid;
+  border-right-color: var(--yellow);
+}
+.experience-timeline.left-order > li{
+  border-left: 2px solid;
+  border-left-color: var(--yellow);
+}
+.experience-timeline > li::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  display: block;
+  background-color: var(--yellow);
+}
+.experience-timeline.right-order > li::before{
+  right: -1px;
+  translate: 50%;
+}
+.experience-timeline.left-order > li::before{
+  left: -1px;
+  translate: -50%;
+}

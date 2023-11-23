@@ -7,6 +7,9 @@
 /* Import Hero parralax style */
 @import url(./styles/hero.css);
 
+/* Import Hero parralax style */
+@import url(./styles/timeline.css);
+
 .title-sm {
   color: rgb(255, 255, 255, .50);
   text-transform: uppercase;
@@ -28,7 +31,7 @@
 }
 
 main > section:nth-child(2n) {
-  background: rgb(0, 0, 0, .5);
+  background: rgb(0, 0, 0, .35);
 }
 
 html {
