@@ -4,6 +4,7 @@ header.main-header{
   left: 50%;
   translate: -50% 0;
   width: 100%;
+  z-index: 100;
 
 }
 header.main-header > .content{
