@@ -1,0 +1,13 @@
+.skill-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.skill-list img {
+  height: 6rem;
+  object-fit: contain;
+  object-position: center;
+  aspect-ratio: 1 / 1;
+}

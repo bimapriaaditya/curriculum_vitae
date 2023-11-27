@@ -10,6 +10,9 @@
 /* Import Hero parralax style */
 @import url(./styles/timeline.css);
 
+/* other particle styles */
+@import url(./styles/skill_list.css);
+
 .title-sm {
   color: rgb(255, 255, 255, .50);
   text-transform: uppercase;
