@@ -12,6 +12,7 @@
 
 /* other particle styles */
 @import url(./styles/skill_list.css);
+@import url(./styles/buttons.css);
 
 .title-sm {
   color: rgb(255, 255, 255, .50);

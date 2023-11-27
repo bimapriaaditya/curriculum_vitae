@@ -11,6 +11,7 @@
   --dark: #323544;
   --light: #e5e8ed;
   --yellow: #ffbb5c;
+  --yellow-dark: rgba(244, 171, 68, 0.25);
 }
 
 @tailwind base;

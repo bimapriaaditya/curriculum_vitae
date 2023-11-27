@@ -1,0 +1,18 @@
+.btn {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 350ms;
+  border-radius: .5rem;
+  padding: .45rem .75rem;
+  cursor: pointer;
+  border: 1px solid; 
+  border-color: transparent;
+  background: transparent;
+}
+.btn-outline-yellow{
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+.btn-outline-yellow.active{
+  background: var(--yellow-dark);
+}

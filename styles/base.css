@@ -14,6 +14,7 @@
   --dark: #323544;
   --light: #e5e8ed;
   --yellow: #ffbb5c;
+  --yellow-dark: rgba(244, 171, 68, 0.25);
 }
 
 /*
@@ -613,16 +614,8 @@ video {
   display: flex;
 }
 
-.aspect-square {
-  aspect-ratio: 1 / 1;
-}
-
 .h-full {
   height: 100%;
-}
-
-.h-24 {
-  height: 6rem;
 }
 
 .w-1\/2 {
@@ -635,10 +628,6 @@ video {
 
 .w-4\/6 {
   width: 66.666667%;
-}
-
-.w-24 {
-  width: 6rem;
 }
 
 .flex-wrap {
@@ -677,33 +666,20 @@ video {
   scroll-behavior: smooth;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-b {
   border-bottom-width: 1px;
-}
-
-.border-b-white\/25 {
-  border-bottom-color: rgb(255 255 255 / 0.25);
 }
 
 .border-b-white\/10 {
   border-bottom-color: rgb(255 255 255 / 0.1);
 }
 
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
+.p-3 {
+  padding: 0.75rem;
 }
 
 .p-4 {
   padding: 1rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
 }
 
 .py-20 {
@@ -737,6 +713,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -757,21 +738,6 @@ video {
   line-height: 1rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -790,10 +756,6 @@ video {
 
 .italic {
   font-style: italic;
-}
-
-.leading-none {
-  line-height: 1;
 }
 
 .leading-tight {
