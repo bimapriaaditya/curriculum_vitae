@@ -14,6 +14,8 @@
 @import url(./styles/skill_list.css);
 @import url(./styles/buttons.css);
 
+@import url(./styles/project_list.css);
+
 .title-sm {
   color: rgb(255, 255, 255, .50);
   text-transform: uppercase;
