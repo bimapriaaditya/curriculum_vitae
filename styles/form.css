@@ -1,0 +1,23 @@
+.default-form {
+  outline: 0;
+  box-shadow: none;
+  padding: .5rem;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: rgb(255, 255, 255, 0.1);
+  border-radius: .5rem;
+  font-size: 90%;
+  display: block;
+  transition: .4s;
+  min-width: 100px;
+  min-height: 35px;
+  width: 100%;
+}
+
+.default-form:focus {
+  border-color: rgb(255, 255, 255, 0.35);
+  background-color: rgb(255, 255, 255, 0.025);
+}
+.default-form::placeholder {
+  opacity: .5;
+}

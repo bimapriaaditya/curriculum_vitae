@@ -15,6 +15,7 @@
 @import url(./styles/buttons.css);
 
 @import url(./styles/project_list.css);
+@import url(./styles/form.css);
 
 .title-sm {
   color: rgb(255, 255, 255, .50);
